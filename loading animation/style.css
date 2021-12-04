@@ -1,0 +1,79 @@
+body{
+	background: linear-gradient(black, rgb(59, 59, 59));
+    color: aliceblue;
+    font-family: Tahoma, sans-serif;
+    font-style: oblique;
+}
+.circle{
+	margin: 70px auto;
+	width: 40px;
+	height: 40px;
+	border: 5px solid rgba(255,255,255,0.2);
+	border-radius: 50%;
+	border-top-color: rgb(255, 0, 0);
+	animation: spin 2s linear infinite;
+}
+@Keyframes spin{
+    
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.container{
+	width: 40px;
+	margin: 70px auto;
+}
+.dot{
+	width: 10px;
+	height: 10px;	
+	display: inline-block;
+	border-radius: 50%;
+	
+}
+.dot1{
+	background-color: #1a96bc;
+	animation: jump-up 0.6s 0.1s linear infinite;
+}
+.dot2{
+	background-color: #ff6e4a;
+	animation: jump-up 0.6s 0.2s linear infinite;
+}
+.dot3{
+	background-color: #75e067;
+	animation: jump-up 0.6s 0.3s linear infinite;
+}
+
+@Keyframes jump-up{
+	50%{
+		transform: translate(0,15px);
+	}
+}
+
+.box{
+	width: 15px;
+	height: 15px;
+	background-color: #008cbc;
+	display: inline-block;
+	animation: pulse 0.6s ease-in infinite alternate;
+}
+.box2, .box3{
+	animation-delay: 0.6s;
+}
+.box1{
+    background-color: #e06767;
+}
+.box2{
+    background-color: #75e067;
+}
+.box3{
+    background-color: #67cee0;
+}
+.box4{
+    background-color: #e0b667;
+}
+
+@Keyframes pulse{
+	100%{
+		opacity: 0;
+	}
+}
