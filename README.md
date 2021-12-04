@@ -6,3 +6,7 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 3. 
 
 
+for sasi --> 22 to 28
+
+for vishal --> 29 to 35
+
