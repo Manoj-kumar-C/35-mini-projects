@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(aqua,black);
+}
+.box{
+    border-radius: 50%;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
+.loading{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    background: orange;
+    animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(90deg);
+    }
+    50%, 100% {
+        transform: rotate(360deg);
+    }
+}
+.loading .box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: animation 2s linear infinite;
+}
+@keyframes animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%, 100%{
+        transform: rotate(180%);
+    }
+}
+
+.loading::before,
+    .loading .box::before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background: #ffffff;
+    }
+    .loading::before {
+      border: 1px solid #000;
+    }
+    .loading .box:nth-child(1)::before {
+      background: #0fbcf9;
+    }
+    .loading .box:nth-child(2)::before {
+      background: #0be881;
+    }
+    .loading .box:nth-child(3)::before {
+      background: #ffa801;
+    }
+    .loading .box:nth-child(4)::before {
+      background: #ff0000;
+    }
+    .loading .box {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        animation: animate 1s linear infinite;
+      }
+    @keyframes animate {
+        0% {
+          transform: rotate(0deg);
+        }
+        50%, 100% {
+          transform: rotate(180deg);
+        }
+    }
+    .loading .box:nth-child(1) {
+      top: -50px;
+      transform-origin: bottom right;
+    }
+    .loading .box:nth-child(2) {
+      right: -50px;
+      transform-origin: bottom left;
+    }
+    .loading .box:nth-child(3) {
+      bottom: -50px;
+      transform-origin: top left;
+    }
+    .loading .box:nth-child(4) {
+      left: -50px;
+      transform-origin: top right;
+    }
