@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: 'roboto';
+}
+
+.glow-text {
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 50%;
+    animation: glow-text 1s ease-in-out infinite alternate;
+}
+
+footer{
+    margin-top: 50%;
+    margin-left: 30%;
+}
+kbd{
+    background-color: aliceblue;
+    color: rgb(255, 0, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+@keyframes glow-text {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+    }
+    
+  }

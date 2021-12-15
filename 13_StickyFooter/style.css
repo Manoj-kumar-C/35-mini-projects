@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    background-color: rgb(120, 250, 250);
+    padding: 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+#footer:hover{
+    background-color: rgb(80, 80, 255);
+    color: rgb(73, 255, 57);
+}
