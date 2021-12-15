@@ -12,6 +12,8 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 9. Rgb To HexDecimal Num .
 10. Image OverLay Fade .
 11. Sticky Social Media .
+12. Glowing Text.
+13. sticky Footer.
 
 
 for sasi --> 22 to 28
