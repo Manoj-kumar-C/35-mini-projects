@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.box{
+    background-color: blue;
+    color: aliceblue;
+    width: 400px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+}
+.box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
+  }
+  
+  .box h2 {
+    font-size: 45px;
+  }
+  
