@@ -14,6 +14,8 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 11. Sticky Social Media .
 12. Glowing Text.
 13. sticky Footer.
+14. NOpe
+15. Animation on scroll
 
 
 for sasi --> 22 to 28
