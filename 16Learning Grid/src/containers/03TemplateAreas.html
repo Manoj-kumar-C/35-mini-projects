@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+
+    <style>
+        .heading{
+            font-size: 2rem;
+            text-align: center;
+            background-color: brown;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            color: aliceblue;
+        }
+        #container{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+        }
+        .items{
+            background-color: rgb(255, 174, 0);
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+            outline: 2px solid rgb(0, 0, 0);
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: oblique;
+            color: aliceblue;
+        }
+        .items:hover{
+            color: rgb(204, 0, 255);
+        }
+        .temp1{
+            grid-template-areas: 
+            "header header header"
+            "main main sidebar"
+            "footer footer footer";
+        }
+        .header{
+            grid-area: header;
+        }
+
+        .main{
+            grid-area: main;
+        }
+        .sidebar{
+            grid-area: sidebar;
+        }
+        .footer{
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+    <h3 class="heading">CSS Grid</h3>
+    <div id="container" class="temp1"> 
+        <div class="items header">header</div>
+        <div class="items main">main</div>
+        <div class="items sidebar">sidebar</div>
+        <div class="items footer">footer</div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+
+    <style>
+        .heading{
+            font-size: 2rem;
+            text-align: center;
+            background-color: brown;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            color: aliceblue;
+        }
+        #container{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+        }
+        .items{
+            background-color: rgb(255, 174, 0);
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+            outline: 2px solid rgb(0, 0, 0);
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: oblique;
+            color: aliceblue;
+        }
+        .auto{
+            grid-auto-flow: inherit;
+        }
+        /* Values:
+            1. row
+            2. column . 
+            3. dense 
+            4. inherit
+            5. initial
+            6. unset 
+            
+            */
+        .row{
+            grid-auto-rows: minmax(50px ,auto);
+        }
+        .column{
+            grid-auto-columns: minmax(10px, 200px);
+            grid-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="heading">Grid Auto Flow</h3>
+    <div id="container" class="auto">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">Grid Auto Row</h3>
+    <div id="container" class="row">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div><h3 class="heading">Grid auto Column</h3>
+    <div id="container" class="column">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+</body>
+</html>
