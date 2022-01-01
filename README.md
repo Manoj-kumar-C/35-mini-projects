@@ -17,7 +17,10 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 14. NOpe
 15. Animation on scroll.
 16. learning Grid .
-17. Learning SVG
+17. Learning SVG .
+18. Slide Down ANimation on Scroll .
+19. RGB to HexaDecimal coverter .
+20. Curtain Menu .
 
 
 
