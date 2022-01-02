@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Code Editor</title>
+  <meta name="description" content="This is an online code editor for html css and javascript. ">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Manojkumar">
+  <meta name="keywords" content="Live code editor, online code editor, live html editor, live css editor, live javascript editor">
+  <link rel="stylesheet" href="main.css" />
+
+</head>
+
+<body>
+  <div class="header-wrap">
+    <h1>Live Code Editor</h1>
+  </div>
+  <div id="ide-parent">
+    <div id="button-wrapper">
+      <button onclick="switchPanel(0)">HTML</button>
+      <button onclick="switchPanel(1)">CSS</button>
+      <button onclick="switchPanel(2)">js</button>
+      <button onclick="runEdit(3)">Result</button>
+    </div>
+    <div id="ide-container">
+      <div class="panel-wrapper">
+        <div id="html">
+&lt;!-- html code --&gt;
+
+        </div>
+      </div>
+      <div class="panel-wrapper">
+        <div id="css">
+/* CSS code */
+
+        </div>
+      </div>
+      <div class="panel-wrapper">
+        <div id="js">
+//JavaScript code
+
+
+        </div>
+      </div>
+      <div class="panel-wrapper">
+        <iframe id="result"></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="inner-wrap">
+      <p>&#169; <span>Copyright</span> . Trademark &trade; Developed By C.manojkumar</p>
+      <div class="icons-wrap">
+       
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.11/ace.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
