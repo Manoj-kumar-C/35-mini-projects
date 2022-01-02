@@ -5,7 +5,7 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 2. Added loading animation .
 3. Added the loading animation .
 4. Password Generator.
-5. nope
+5. Online Code Editor
 6. SoundBoard.
 7. Off Canvas.
 8. CountDown Timer.
@@ -14,7 +14,7 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 11. Sticky Social Media .
 12. Glowing Text.
 13. sticky Footer.
-14. Online Code Editor
+14. Toggleleable tabs .
 15. Animation on scroll.
 16. learning Grid .
 17. Learning SVG .
