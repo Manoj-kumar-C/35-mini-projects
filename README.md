@@ -1,5 +1,5 @@
 # 20-Mini-Projects-Using-HTML-CSS-JS-before-New-Year-2022
-In this repo, I going to make 20 mini projects using the html, css and js before the New year 2022
+In this repo, I going to make 20 mini projects using the html, css and js before the New year 2022 .The moto of this repo is to master the front end  .
 
 1. Added hoverboard
 2. Added loading animation .
@@ -22,7 +22,7 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 19. RGB to HexaDecimal coverter .
 20. Curtain Menu .
 
-
+## I hope you like this repo . If you like it plz give a star and follow me . Thank you .
 
 Completed the 20 projects .. 🤝 ✨ ❇️ 🧨
 
