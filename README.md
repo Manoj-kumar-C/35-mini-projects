@@ -22,7 +22,7 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 19. RGB to HexaDecimal coverter .
 20. Curtain Menu .
 
-## I hope you like this repo . If you like it plz give a star and follow me . Thank you .
+## I hope you like this repo . If you like it plz give a star and follow me .
 
 Completed the 20 projects .. 🤝 ✨ ❇️ 🧨
 
