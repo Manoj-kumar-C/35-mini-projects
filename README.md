@@ -26,7 +26,7 @@ In this repo, I going to make 20 mini projects using the html, css and js before
 
 ## I hope you like this repo . If you like it plz give a star and follow me .
 
-Completed the 20 projects .. 🤝 ✨ ❇️ 🧨
+Completed the 20 projects .. 🤝 ✨ ❇ 🧨
 
 This repo is archieved and no longer will be updated .
 
