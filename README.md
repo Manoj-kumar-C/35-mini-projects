@@ -31,4 +31,4 @@ In this repo, I'm working on 20 mini projects using HTML, CSS, and JS before the
 Completed the 20 projects .. 🤝 ✨ ❇ 🧨
 
 
-### Thank You
+### Thank You  😋
