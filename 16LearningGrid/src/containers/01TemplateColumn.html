@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+
+    <style>
+        .heading{
+            font-size: 2rem;
+            text-align: center;
+            background-color: brown;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            color: aliceblue;
+        }
+        #container{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: 200px 100px auto;
+            /*
+            The values may be in the 
+            1. percentage .
+            2. auto.
+            3. px .
+            4. fr (frames)
+            5. repeat(no of times/auto-fill/auto-fit, values)
+            6. minmax(minvalue , maxvalue ) 
+
+
+            */
+            margin: 10px;
+        }
+        /* we can also give name to the column */ 
+        .items{
+            background-color: rgb(255, 174, 0);
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+            outline: 2px solid rgb(0, 0, 0);
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: oblique;
+            color: aliceblue;
+        }
+        .items:hover{
+            
+            color: rgb(0, 0, 0);
+        }
+        /* BAsic Styles */
+
+        /* containers */
+        #container2{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: 25% 50% 25%;
+            margin: 10px;
+        }
+        #container3{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: 10px;
+        }
+        #container4{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            margin: 10px;
+        }
+        /* repeat()*/
+        #container5{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            margin: 10px;
+        }
+        /* repeat(auto-fit, value)*/
+        #container6{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+            margin: 10px;
+        }
+        /* repeat(auto-fill , value)*/
+        #container7{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px,auto));
+            margin: 10px;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <h3 class="heading">Grid-Template-Columns</h3>
+    <div id="container">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+<br>
+<h3 class="heading">Percentage </h3>
+    <div id="container2">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">Auto </h3>
+    <div id="container3">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">frames </h3>
+    <div id="container4">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">repeat </h3>
+    <div id="container5">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">repeat/auto-fit </h3>
+    <div id="container6">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">repeat/auto-fill </h3>
+    <div id="container7">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+</body>
+</html>

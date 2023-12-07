@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggleleable Tabs</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #India{background-color: aqua;}
+        #Usa{background-color: rgb(225, 255, 1);}
+        #Canada{background-color: rgb(127, 255, 148);}
+        #China{background-color: azure;}
+        .tabcontent{
+            color: rgb(0, 0, 0);
+            
+            padding: 2rem;
+            text-align: center;
+            
+        }
+        .tablink{
+            background-color: grey;  
+            color: blue;
+            padding: 0.8rem 1.2rem;
+            width: 25%;
+            outline: none;
+            float: left;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+        .tablink:hover{
+            background-color: aquamarine;
+        }
+        footer{
+            text-align: center;
+            background-color: blueviolet;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabcontent" id="India">
+        <h1>India</h1>
+        <p>Delhi is the india capital .</p>
+    </div>
+    <div class="tabcontent" id="Usa">
+        <h1>USA </h1>
+        <p>Newyork is the USA capital .</p>
+    </div>
+    <div class="tabcontent" id="Canada">
+        <h1>Canada</h1>
+        <p>I dont know the capital of the Canada .</p>
+    </div>
+    <div class="tabcontent" id="China">
+        <h1>China</h1>
+        <p>Beijing is the capital of china .</p>
+    </div>
+    <button class="tablink" onclick="showCity('India',this,'orange')" id="defaultOption">India</button>
+    <button class="tablink" onclick="showCity('Usa',this,'aqua')">USA</button>
+    <button class="tablink" onclick="showCity('Canada',this,'lightgreen')">Canada</button>
+    <button class="tablink" onclick="showCity('China',this,'yellow')">China</button>
+
+
+    <footer>This is created by Manojkumar ..  </footer>
+
+    <script>
+        function showCity(cityName, elm, color){
+            var i, tabcontent, tablink;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+
+            for (i = 0 ; i < tabcontent.length; i++){
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablink");
+
+            for (i = 0; i < tablinks.length; i++){
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+
+            elm.style.backgroundColor= color;
+        }
+        document.getElementById("defaultOption").click();
+    </script>
+</body>
+</html>

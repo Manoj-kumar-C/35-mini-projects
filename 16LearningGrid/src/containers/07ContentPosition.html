@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+
+    <style>
+        .heading{
+            font-size: 2rem;
+            text-align: center;
+            background-color: brown;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            color: aliceblue;
+        }
+        #container{
+            outline: 6px solid blue;
+            height: 30rem;
+            display: grid;
+        }
+        .items{
+            background-color: rgb(255, 174, 0);
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+            outline: 2px solid rgb(0, 0, 0);
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: oblique;
+            color: aliceblue;
+        }
+        .position1{
+            align-content: space-around;/* horizontally alignment */
+            /*Values:
+            1. flex-start
+            2. flex-end
+            3. center
+            4. stretch
+            5. inherit
+            6. initial
+            7. unset
+            8. space-around
+            9. space-between
+            10. space-evenly
+            */ 
+                }
+
+
+        .position2{
+            justify-content: flex-start;/* vertical alignment */
+        }
+        .position3{
+            place-content: flex-end start;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="heading">align Content </h3>
+    <div id="container" class="position1">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">Justify Content</h3>
+    <div id="container" class="position2">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+    <h3 class="heading">palce content </h3>
+    <div id="container" class="position3">
+        <div class="items 1">1</div>
+        <div class="items 2">2</div>
+        <div class="items 3">3</div>
+        <div class="items 4">4</div>
+        <div class="items 5">5</div>
+        <div class="items 6">6</div>
+    </div>
+</body>
+</html>
