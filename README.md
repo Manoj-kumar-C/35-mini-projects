@@ -1,6 +1,6 @@
 
 
-# 20 Mini Projects Using HTML, CSS, JS before New Year 2022
+# 20 Mini Projects Using HTML, CSS, JS 
 
 In this repo, I'm working on 20 mini projects using HTML, CSS, and JS before the New Year 2022. The goal of this repo is to master front-end development.
 
