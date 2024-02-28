@@ -26,6 +26,19 @@ In this repo, I'm working on 20 mini projects using HTML, CSS, and JS before the
 20. [Curtain Menu](./20_Curtain%20Menu/)
 
 
+
+
+
+```
+Express Js
+Node Js
+React Native
+Cypress js
+Others Etc ..
+
+```
+
+
 ## I hope you like this repo . If you like it plz give a star and follow me .
 
 Completed the 20 projects .. 🤝 ✨ ❇ 🧨
