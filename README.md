@@ -2,7 +2,7 @@
 
 # 35 Mini Projects Using HTML, CSS, JS at 2024 -- Target 
 
-In this repo, I'm working on 20 mini projects using HTML, CSS, and JS before the New Year 2022. The goal of this repo is to master front-end development.
+In this repo, I'm working on 35 mini projects before the New Year 2024. The goal of this repo is to master front-end development.
 
 1. [Hoverboard](./hoverboard/)
 2. [Loading Animation](./loading%20animation/)
@@ -36,6 +36,7 @@ Node Js
 React Native
 Cypress js
 Vite Js
+Flutter
 Interview Preparation
 
 Others Etc ..
