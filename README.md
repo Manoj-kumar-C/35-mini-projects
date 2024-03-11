@@ -38,6 +38,7 @@ Cypress js
 Vite Js
 Flutter
 Interview Preparation
+Mini Portfolio - A Company
 
 Others Etc ..
 
