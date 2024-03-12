@@ -1,0 +1,4 @@
+#Sun Aug 20 17:21:26 IST 2023
+base.0=F\:\\Todo-app\\ToDoFlutter\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

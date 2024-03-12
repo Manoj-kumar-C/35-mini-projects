@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.example.todoflutter"
+    minSdkVersion="16"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="F:\Todo-app\ToDoFlutter\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="F:\Todo-app\ToDoFlutter\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.1.2;C:\Users\devel\Downloads\flutter_windows_3.10.6-stable\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="F:\Todo-app\ToDoFlutter\build\app\intermediates\lint_vital_partial_results\release\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin"
+        resDirectories="src\main\res"
+        assetsDirectories="src\main\assets"/>
+    <sourceProvider
+        manifest="src\release\AndroidManifest.xml"
+        javaDirectories="src\release\java;src\release\kotlin"
+        resDirectories="src\release\res"
+        assetsDirectories="src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="F:\Todo-app\ToDoFlutter\build\app\intermediates\javac\release\classes;F:\Todo-app\ToDoFlutter\build\app\tmp\kotlin-classes\release;F:\Todo-app\ToDoFlutter\build\app\kotlinToolingMetadata;F:\Todo-app\ToDoFlutter\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.todoflutter"
+      generatedSourceFolders="F:\Todo-app\ToDoFlutter\build\app\generated\ap_generated_sources\release\out;F:\Todo-app\ToDoFlutter\build\app\generated\aidl_source_output_dir\release\out;F:\Todo-app\ToDoFlutter\build\app\generated\source\buildConfig\release;F:\Todo-app\ToDoFlutter\build\app\generated\renderscript_source_output_dir\release\out"
+      generatedResourceFolders="F:\Todo-app\ToDoFlutter\build\app\generated\res\rs\release;F:\Todo-app\ToDoFlutter\build\app\generated\res\resValues\release">
+  </mainArtifact>
+</variant>
