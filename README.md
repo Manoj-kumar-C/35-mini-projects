@@ -27,6 +27,7 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 21. SJC Plans Clone Senchola Internship (Flutter)
 22. Social Media Clone Senchola internship (Flutter)
 23. Todo App Senchola Internship (Flutter)
+24. Crack It -- React Native
 
 
 
