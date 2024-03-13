@@ -24,6 +24,9 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 18. [Slide Down Animation on Scroll](./18_SlideDownaBaronScroll/)
 19. [RGB to Hexadecimal Converter](./19_RGBtoHEXdeciaml/)
 20. [Curtain Menu](./20_Curtain%20Menu/)
+21. SJC Plans Clone Senchola Internship (Flutter)
+22. Social Media Clone Senchola internship (Flutter)
+23. Todo App Senchola Internship (Flutter)
 
 
 
