@@ -39,9 +39,13 @@ Node Js
 React Native
 Cypress js
 Vite Js
-Flutter
+Bun
+Mongoose , MongoDB, 
+Mysql, DrizzleOrm
 Interview Preparation
 Mini Portfolio - A Company
+
+
 
 Others Etc ..
 
@@ -51,7 +55,7 @@ Others Etc ..
 
 ## I hope you like this repo . If you like it plz give a star and follow me .
 
-Completed the 20 projects .. 🤝 ✨ ❇ 🧨
+Completed the 25 projects .. 🤝 ✨ ❇ 🧨
 
 
 ### Thank You  😋
