@@ -1,6 +1,6 @@
 
 
-# 35 Mini Projects Using HTML, CSS, JS at 2024 -- Target 
+# 35 Mini Projects at 2024 -- Target 
 
 In this repo, I'm working on 35 mini projects before the New Year 2024. The goal of this repo is to master front-end development.
 -------------- Front End Development ------------
@@ -29,12 +29,16 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 22. Social Media Clone Senchola internship (Flutter)
 23. Todo App Senchola Internship (Flutter)
 24. Crack It -- React Native
+<<<<<<< HEAD
 25. Learn Express Js --  Harder Way
 26. Portfolio -- Mokkk Creators 
 27. Vite, Bun, Yarn etc .. -- Crash Course
 28. ORM, ODM -- Crash Course
 29. Learn DB -- Harder Way
 30. 
+=======
+25. Vite Js Crash Course 
+>>>>>>> 3314e9fc0aff2ca28a10c45153f3cf2096b2d276
 
 
 
