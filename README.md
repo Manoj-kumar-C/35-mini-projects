@@ -3,7 +3,7 @@
 # 35 Mini Projects Using HTML, CSS, JS at 2024 -- Target 
 
 In this repo, I'm working on 35 mini projects before the New Year 2024. The goal of this repo is to master front-end development.
-
+-------------- Front End Development ------------
 1. [Hoverboard](./hoverboard/)
 2. [Loading Animation](./loading%20animation/)
 3. [Loading Animation 2](./03_loading%20animation/)
@@ -24,10 +24,17 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 18. [Slide Down Animation on Scroll](./18_SlideDownaBaronScroll/)
 19. [RGB to Hexadecimal Converter](./19_RGBtoHEXdeciaml/)
 20. [Curtain Menu](./20_Curtain%20Menu/)
+    -------------  Back End Developer ------------- ( Full Stack)
 21. SJC Plans Clone Senchola Internship (Flutter)
 22. Social Media Clone Senchola internship (Flutter)
 23. Todo App Senchola Internship (Flutter)
 24. Crack It -- React Native
+25. Learn Express Js --  Harder Way
+26. Portfolio -- Mokkk Creators 
+27. Vite, Bun, Yarn etc .. -- Crash Course
+28. ORM, ODM -- Crash Course
+29. Learn DB -- Harder Way
+30. 
 
 
 
@@ -45,7 +52,7 @@ Mongoose , MongoDB,
 Mysql, DrizzleOrm
 Interview Preparation
 Mini Portfolio - A Company
-
+Swagger Ui
 
 
 Others Etc ..
