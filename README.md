@@ -29,18 +29,22 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 19. [RGB to Hexadecimal Converter](./19_RGBtoHEXdeciaml/)
 20. [Curtain Menu](./20_Curtain%20Menu/)
     
-    -------------  Back End Developer ------------- ( Full Stack)
+    -------------  Back End Developer ------------- ( Full Stack) ----------------------
 
 21. SJC Plans Clone Senchola Internship (Flutter)
 22. Social Media Clone Senchola internship (Flutter)
 23. Todo App Senchola Internship (Flutter)
 24. Crack It -- React Native
 25. Learn Express Js --  Harder Way
-26. Portfolio -- Mokkk Creators 
+26. Portfolio -- Mokka Creators 
 27. Vite, Bun, Yarn etc .. -- Crash Course
 28. ORM, ODM -- Crash Course
 29. Learn DB -- Harder Way
-30. 
+30. Learn Java Harder Way
+31. Data Analytics Projects
+32. Full Stack Recap
+33. Linktree Clone
+34. DSA interview Preparation 
 
 
 
