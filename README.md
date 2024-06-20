@@ -42,11 +42,11 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 29. Learn DB -- Harder Way
 30. Learn Java Harder Way
 31. Data Analytics Projects
-32. Full Stack Recap
-33. Linktree Clone
-34. DSA interview Preparation
-35. Learning of Cloud Computing (AWS)( It Takes About 3 months to take Documentation )
-
+32. Sophia Ai 
+    ---------------- DEVOPS --------------------- ( Advance of Full Stack ) ---------------
+33. DSA interview Preparation
+34. Learning of Cloud Computing (AWS)( It Takes About 3 months to take Documentation )
+35. Learning DevOps Harder Way ( Docker and Kubernetes ) (MERN, Next.js) Tech Stack
 
 
 
