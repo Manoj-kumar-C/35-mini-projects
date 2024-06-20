@@ -5,7 +5,7 @@
 In this repo, I'm working on 35 mini projects before the New Year 2024. The goal of this repo is to master front-end development.
 
 
--------------- Front End Development ------------
+### -------------- Front End Development ------------
 
 
 1. [Hoverboard](./hoverboard/)
@@ -29,7 +29,7 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 19. [RGB to Hexadecimal Converter](./19_RGBtoHEXdeciaml/)
 20. [Curtain Menu](./20_Curtain%20Menu/)
     
-    -------------  Back End Developer ------------- ( Full Stack) ----------------------
+    ### -------------  Back End Developer ------------- ( Full Stack) ----------------------
 
 21. SJC Plans Clone Senchola Internship (Flutter)
 22. Social Media Clone Senchola internship (Flutter)
@@ -43,10 +43,11 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 30. Learn Java Harder Way
 31. Data Analytics Projects
 32. Sophia Ai 
-    ---------------- DEVOPS --------------------- ( Advance of Full Stack ) ---------------
-33. DSA interview Preparation
-34. Learning of Cloud Computing (AWS)( It Takes About 3 months to take Documentation )
-35. Learning DevOps Harder Way ( Docker and Kubernetes ) (MERN, Next.js) Tech Stack
+
+    ### ---------------- DEVOPS --------------------- ( Advance of Full Stack ) ---------------
+34. DSA interview Preparation
+35. Learning of Cloud Computing (AWS)( It Takes About 3 months to take Documentation )
+36. Learning DevOps Harder Way ( Docker and Kubernetes ) (MERN, Next.js) Tech Stack
 
 
 
