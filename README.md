@@ -36,7 +36,7 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 23. Todo App Senchola Internship (Flutter)
 24. Crack It -- React Native
 25. Learn Express Js --  Harder Way
-26. Portfolio -- Mokka Creators 
+26. Personal Portfolio
 27. Vite, Bun, Yarn etc .. -- Crash Course
 28. ORM, ODM -- Crash Course
 29. Learn DB -- Harder Way
