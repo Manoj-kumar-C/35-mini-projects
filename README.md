@@ -48,6 +48,7 @@ In this repo, I'm working on 35 mini projects before the New Year 2024. The goal
 34. DSA interview Preparation
 35. Learning of Cloud Computing (AWS)( It Takes About 3 months to take Documentation, AWS Cloud Practioner & Solution Architect )
 36. Learning DevOps Harder Way ( Docker and Kubernetes ) (MERN, Next.js) Tech Stack
+37. Extras --- No Code Low Code , Digital Marketing Repos
 
 
 
